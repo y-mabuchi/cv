@@ -21,6 +21,11 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
 
 ## 主な業務経歴
 
+### DocbaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
+
+【概要】
+DocbaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
+
 ### 業務管理サービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP / GAS] (2021/08〜)
 
 【プロジェクト概要】  
@@ -35,6 +40,33 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
 
 【発揮したバリュー】  
 2021/12〜リーダーエンジニアとして活動
+
+【技術スタック】
+
+#### バックエンド
+- Go
+- GraphQL
+- SQLBoiler
+- gqlgen
+- golang-migrate
+
+#### フロントエンド
+- React
+- Next.js
+- TypeScript
+- Apollo Client
+- GraphQL Code Generator
+
+#### クラウドインフラ
+- Cloud Run
+- Google App Engine
+- Cloud SQL
+- Cloud Build
+- Cloud Tasks
+
+#### 運用監視
+- Datadog
+- Sentry
 
 ### 動画コンテンツBtoBマッチングサービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP] (2021/07〜2021/08)
 
