@@ -12,7 +12,7 @@
 ## スキル
 
 ### 言語
-Golang | React | TypeScript
+Golang | React | TypeScript | Terraform
 
 ### クラウド
 
@@ -37,6 +37,7 @@ DocbaseからエクスポートしたJSONファイルを元に、Confluence API�
 - Cloud BuildによるCI/CD構築
 - SendGridによるメール送信
 - Sentry, Datadogによる運用監視の導入
+- Terraformによるインフラのコード化
 
 【発揮したバリュー】  
 2021/12〜リーダーエンジニアとして活動
@@ -67,6 +68,9 @@ DocbaseからエクスポートしたJSONファイルを元に、Confluence API�
 #### 運用監視
 - Datadog
 - Sentry
+
+#### IaC
+- Terraform
 
 ### 動画コンテンツBtoBマッチングサービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP] (2021/07〜2021/08)
 
