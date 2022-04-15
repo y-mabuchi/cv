@@ -21,13 +21,13 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
 
 ## 主な業務経歴
 
-### DocbaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
+### DocBaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
 
-【概要】
-DocbaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
+【概要】  
+DocBaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
 
 ### EC管理画面のE2Eテスト [React / TypeScript / Firebase / Cypress / GitHub Actions] (2022/01〜)
-【概要】
+【概要】  
 あるEC管理画面のE2Eテスト
 
 【担当業務】
@@ -43,7 +43,7 @@ DocbaseからエクスポートしたJSONファイルを元に、Confluence API�
 - GitHub Actions
 
 ### 地域特化ビジネスマッチングサービス [React / TypeScript / Next.js / Firebase] (2021/09〜2021/12)
-【概要】
+【概要】  
 ある地域に特化したビジネスマッチングサービス
 
 【担当業務】
@@ -59,8 +59,7 @@ DocbaseからエクスポートしたJSONファイルを元に、Confluence API�
 - Firebase
 
 ### 業務管理サービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP / GAS] (2021/08〜)
-
-【プロジェクト概要】  
+【概要】  
 ある監視サービスの統合表示、管理をするBtoB向けサービス
 
 【担当業務】  
@@ -105,10 +104,21 @@ DocbaseからエクスポートしたJSONファイルを元に、Confluence API�
 - Terraform
 
 ### 動画コンテンツBtoBマッチングサービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP] (2021/07〜2021/08)
-
-【プロジェクト概要】  
+【概要】  
 動画コンテンツのBtoB向けマッチングサービス
 
 【担当業務】
 
 - GoによるGraphQLサーバ開発
+
+### ECサイト開発 [React / TypeScript / Next.js / Firebase] (2021/01〜2021/09)
+【概要】  
+そば粉を販売するECサイト
+
+【担当業務】
+- Firestoreのスキーマ設計
+- Reactによるコンポーネント、およびページ開発
+- Firebaseとの通信開発
+
+【補足】  
+副業での参画です
