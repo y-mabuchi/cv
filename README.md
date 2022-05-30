@@ -65,13 +65,17 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 【担当業務】  
 
 - GoによるGraphQLサーバ開発
-- Cloud BuildによるCI/CD構築
+- Cloud BuildによるCD構築
+- GitHub ActionsによるCI構築
 - SendGridによるメール送信
 - Sentry, Datadogによる運用監視の導入
 - Terraformによるインフラのコード化
+- GraphQLのAPI仕様書自動生成
+- ER図の自動生成
 
 【発揮したバリュー】  
 2021/12〜リーダーエンジニアとして活動
+2022/04〜リードエンジニアとして活動
 
 【技術スタック】
 
