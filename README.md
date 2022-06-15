@@ -21,48 +21,11 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
 
 ## 主な業務経歴
 
-### DocBaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
-
-【概要】  
-DocBaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
-
-### EC管理画面のE2Eテスト [React / TypeScript / Firebase / Cypress / GitHub Actions] (2022/01〜)
-【概要】  
-あるEC管理画面のE2Eテスト
-
-【担当業務】
-- Firebase Local Emulatorの導入
-- Cypressによるテストの自動化導入
-- GitHub ActionsによるCI構築
-
-【技術スタック】
-- React
-- TypeScript
-- Firebase
-- Cypress
-- GitHub Actions
-
-### 地域特化ビジネスマッチングサービス [React / TypeScript / Next.js / Firebase] (2021/09〜2021/12)
-【概要】  
-ある地域に特化したビジネスマッチングサービス
-
-【担当業務】
-- Reactによるコンポーネント作成
-- Reactによるページ作成
-- react-queryを使用したFirebaseとのつなぎ込み
-
-【技術スタック】
-- React
-- TypeScript
-- Next.js
-- react-query
-- Firebase
-
 ### 業務管理サービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP / GAS] (2021/08〜)
 【概要】  
 ある監視サービスの統合表示、管理をするBtoB向けサービス
 
-【担当業務】  
+【担当業務】
 
 - GoによるGraphQLサーバ開発
 - Cloud BuildによるCD構築
@@ -72,6 +35,7 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 - Terraformによるインフラのコード化
 - GraphQLのAPI仕様書自動生成
 - ER図の自動生成
+- 業務効率化のため、複数リポジトリをモノレポに変更
 
 【発揮したバリュー】  
 2021/12〜リーダーエンジニアとして活動
@@ -98,7 +62,14 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 - Google App Engine
 - Cloud SQL
 - Cloud Build
+- Cloud Scheduler
 - Cloud Tasks
+
+#### CI
+- GitHub Actions
+- SpectaQL
+- tbls
+- Secretlint
 
 #### 運用監視
 - Datadog
@@ -106,6 +77,49 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 
 #### IaC
 - Terraform
+
+### DocBaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
+
+【概要】  
+DocBaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
+
+### EC管理画面のE2Eテスト [React / TypeScript / Firebase / Cypress / GitHub Actions] (2022/01〜)
+【概要】  
+あるEC管理画面のE2Eテスト
+
+【担当業務】
+- Firebase Local Emulatorの導入
+- Cypressによるテストの自動化導入
+- GitHub ActionsによるCI構築
+
+【技術スタック】
+- React
+- TypeScript
+- Firebase
+- Cypress
+- GitHub Actions
+
+【補足】  
+副業での参画です
+
+### 地域特化ビジネスマッチングサービス [React / TypeScript / Next.js / Firebase] (2021/09〜2021/12)
+【概要】  
+ある地域に特化したビジネスマッチングサービス
+
+【担当業務】
+- Reactによるコンポーネント作成
+- Reactによるページ作成
+- react-queryを使用したFirebaseとのつなぎ込み
+
+【技術スタック】
+- React
+- TypeScript
+- Next.js
+- react-query
+- Firebase
+
+【補足】  
+副業での参画です
 
 ### 動画コンテンツBtoBマッチングサービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP] (2021/07〜2021/08)
 【概要】  
