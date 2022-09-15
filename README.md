@@ -17,7 +17,7 @@ Golang | React | TypeScript | Terraform
 ### クラウド
 
 #### GCP
-Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
+Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Cloud Scheduler | Cloud Tasks | Cloud Load Balancing | Cloud CDN | Artifact Registry | Google App Engine
 
 ## 主な業務経歴
 
@@ -78,6 +78,8 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Google App Engine
 #### IaC
 - Terraform
 
+---
+
 ### DocBaseからConfluenceへデータ移行するCLIツール [Go] (2022/03〜)
 
 【概要】  
@@ -102,6 +104,8 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 【補足】  
 副業での参画です
 
+---
+
 ### 地域特化ビジネスマッチングサービス [React / TypeScript / Next.js / Firebase] (2021/09〜2021/12)
 【概要】  
 ある地域に特化したビジネスマッチングサービス
@@ -120,6 +124,8 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 
 【補足】  
 副業での参画です
+
+---
 
 ### 動画コンテンツBtoBマッチングサービスのAPI開発 [Go / GraphQL / Cloud SQL / GCP] (2021/07〜2021/08)
 【概要】  
@@ -140,3 +146,103 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 
 【補足】  
 副業での参画です
+
+---
+
+### フードデリバリーサービス開発 [VB.net / TypeScript] (2020/01〜2021/08)
+
+【概要】  
+タクシーが飲食店の料理をデリバリーするプラットフォームの企画、開発  
+
+【担当業務】  
+企画、基本設計、画面設計、Push通知を行うエンドポイントのコーディング  
+
+【使用技術】
+- Cloud Functions
+- Firebase Cloud Messaging
+- TypeScript
+- Figma
+
+【課題】
+- コロナ禍によって大幅なダメージを受けた飲食店・タクシー業界の売上減
+- 飲食店に行きたくても、コロナ禍により行けない
+
+【工夫した点】  
+出発地、目的地を郵便番号で管理し、Google Directions APIを使用して距離を計算、エリア区分をすることで、配送範囲を制御しました  
+
+---
+
+### CMS開発 [React / TypeScript / Next.js / WordPress] (2020/01〜2020/03)
+【概要】  
+静的サイトジェネレータを使った表示速度の早いCMS  
+
+【担当】  
+企画、設計、コーディング  
+
+【使用技術】
+- React
+- Next.js
+- TypeScript
+- WordPress
+
+【課題】  
+SEO対策を十分に行ったWordPressでは表示速度が犠牲になってしまう
+
+【工夫した点】  
+Lighthouseで高得点となるように、Suggestを一つ一つ対応
+
+---
+
+### 社内業務システム開発 [Google Apps Script / TypeScript] (2018/01〜2020/01)
+【概要】  
+飲食店のバックオフィスを管理する業務システムの設計、構築、運用  
+- 売上管理
+- シフト管理
+- 請求書管理
+- 会計ソフトとの連動
+- 勤怠管理ソフトとの連動
+
+【担当】  
+企画、設計、コーディング、保守
+
+【使用技術】
+- Google Apps Script
+- TypeScript
+
+【課題】
+- 業務を引き継いだ当初、Webエディターで直接コーディングされており、ソースコード管理がされていなかった
+- ファイルが適切に分割されておらず、コードの可読性が悪かった
+- テストコードが存在しなかった
+
+【工夫した点】
+- ライブラリを使用しローカルで開発できるように変更、gitを導入しソースコード管理を行うようにした
+- TypeScriptを使用して、ファイルを適切に分割、可読性を高めた
+- ユニットテストを導入した
+
+---
+
+### 給与計算システム開発 [Excel VBA] (2016/01〜2016/12)
+【概要】  
+給与計算システムとのダブルチェックのため、エクセルを使用した給与計算システムの開発  
+
+【担当】  
+設計、開発、コーディング、保守  
+
+【使用技術】
+- Excel VBA
+
+---
+
+### 日報システム開発 [PHP / MySQL] (2007/01〜2007/12)
+【概要】  
+顧客検索、日報管理システムの開発  
+
+
+【担当】  
+設計、開発、コーディング、保守  
+
+【使用技術】
+- PHP
+- MySQL
+- Twitter Bootstrap
+- Linux
