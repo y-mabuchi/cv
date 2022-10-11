@@ -101,6 +101,8 @@ Cloud Run | Cloud Storage | Cloud SQL | Cloud Build | Cloud Scheduler | Cloud Ta
 【概要】  
 DocBaseからエクスポートしたJSONファイルを元に、Confluence APIを使用して移行するCLIツール
 
+---
+
 ### EC管理画面のE2Eテスト [React / TypeScript / Firebase / Cypress / GitHub Actions] (2022/01〜)
 【概要】  
 あるEC管理画面のE2Eテスト
@@ -150,6 +152,8 @@ DocBaseからエクスポートしたJSONファイルを元に、Confluence API�
 【担当業務】
 
 - GoによるGraphQLサーバ開発
+
+---
 
 ### ECサイト開発 [React / TypeScript / Next.js / Firebase] (2021/01〜2021/09)
 【概要】  
