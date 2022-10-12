@@ -143,7 +143,7 @@
 - Firebase Local Emulatorの導入
 - Cypressによるテストの自動化導入
 - GitHub ActionsによるCI構築
-- 
+
 #### 担当フェーズ
 - E2Eテスト
 
