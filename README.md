@@ -18,6 +18,7 @@ Goを軸としたフルサイクルエンジニア（Go 約5年）。バック�
 - Golangによるアプリケーションの開発（約5年）
 - 仕様駆動開発を実現する社内プラグイン（Claude Codeプラグイン）の設計・開発。API仕様・DB仕様・詳細設計を自動生成し、手入力をゼロ化
 - 分散トランザクション（Sagaパターン）の実装
+- 外部システム連携・非同期処理: 他社勤怠システムからのデータ取り込みを Amazon SQS を用いた非同期処理で構築（約1年）
 - 3〜5名規模のスクラムマスターを経験(スケジュール管理、工数管理、顧客折衝)
 - インフラ/SRE領域: AWS(RDS, Aurora, EKS/Kubernetes)・GCP(Cloud Run, Cloud SQL 等)を用いたデプロイ・運用監視・パフォーマンス改善
 - Cloud SQLのスロークエリからインデックスの再設定によるパフォーマンスチューニング
@@ -43,7 +44,7 @@ Goを軸としたフルサイクルエンジニア（Go 約5年）。バック�
 | OS  | Linux         | ★1年    | インストールから簡単な設定ができる                                          |
 | その他 | Docker        | ★2.5年  | 開発向けのローカル設定から、マルチステージビルドを用いたビルド設定ができる                      |
 |     | GCP           | ★1年    | gcloudコマンドによる各リソースの構築から、Terraformを使ったインフラコード化ができる          |
-|     | AWS           | ★業務経験  | RDS/Aurora/EKS等を用いた本番運用の経験がある                              |
+|     | AWS           | ★業務経験  | RDS/Aurora/EKS/SQS等を用いた本番運用の経験がある                          |
 |     | CI/CD         | ★0.5年  | GitHub Actionsを用いたデプロイ設定、GraphQLのAPIドキュメント自動生成、ER図自動生成ができる |
 ＊業務経験あり: ★
 
@@ -86,9 +87,10 @@ Go / gRPC / GORM / GraphQL(gqlgen) / Gin / React / Next.js / TypeScript / Fireba
 - GoによるREST APIサーバ開発
 - Reactによるフロントエンド開発
 - 分散トランザクション（Sagaパターン）の実装
+- 他社勤怠システムからのデータ取り込みを Amazon SQS を用いた非同期処理で実装（約1年）
 - データベースのパフォーマンス改善
 - データベース負荷軽減のためのポーリング機構改善
-- インフラ/SRE領域のタスク（GCP運用・監視・パフォーマンス改善）
+- インフラ/SRE領域のタスク（AWS運用・監視・パフォーマンス改善）
 - クライアントからのお問い合わせ対応(調査、改修)
 
 ##### 主な成果: 仕様駆動開発プラグインの内製（Claude Codeプラグイン / チーム約5名・設計リード2名）
@@ -105,7 +107,7 @@ Go / gRPC / GORM / GraphQL(gqlgen) / Gin / React / Next.js / TypeScript / Fireba
 #### 環境
 - Go
 - React / TypeScript
-- AWS (RDS, Aurora, EKS/Kubernetes)
+- AWS (RDS, Aurora, EKS/Kubernetes, SQS)
 - 仕様駆動開発プラグイン (Claude Codeプラグイン)
 
 #### メンバー/役割
